@@ -4,7 +4,7 @@ PMC3534619 [$Equal contribution]. http://bmcgenomics.biomedcentral.com/articles/
 
 To use these algorithms, call the functions: `maxAUC`, `optSe`, and/or `optSp`.
 
-`maxAUC` returns the maximal AUC given:
+`maxAUC` returns the maximal AUC given:  
 k=prevalence  
 pve=proportion of variance explained (e.g. heritability)  
 n.bins=number of bins (default: 100)  
