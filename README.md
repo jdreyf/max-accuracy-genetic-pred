@@ -5,25 +5,25 @@ PMC3534619. http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-13-3
 To use these algorithms, call the functions: maxAUC, optSe, and/or optSp.
 
 `maxAUC` returns the maximal AUC given:
-k=prevalence
-pve=proportion of variance explained (e.g. heritability)
-n.bins=number of bins (default: 100)
+k=prevalence  
+pve=proportion of variance explained (e.g. heritability)  
+n.bins=number of bins (default: 100)  
 
-`optSe` returns the optimal (maximal or minimal) sensitivity given:
-k=prevalence
-pve=proportion of variance explained (e.g. heritability)
-sp=specificity
-n.bins=number of bins (default: 1000)
-direction="max" or "min" (default: "max")
-thresh.vector=vector of thresholds in terms of bins (default: integer sequence from 1 to n.bins by 10)
+`optSe` returns the optimal (maximal or minimal) sensitivity given:  
+k=prevalence  
+pve=proportion of variance explained (e.g. heritability)  
+sp=specificity  
+n.bins=number of bins (default: 1000)  
+direction="max" or "min" (default: "max")  
+thresh.vector=vector of thresholds in terms of bins (default: integer sequence from 1 to n.bins by 10)  
 
-`optSp` returns the optimal (maximal or minimal) specificity given:
-k=prevalence
-pve=proportion of variance explained (e.g. heritability)
-se=sensitivity
-n.bins=number of bins (default: 1000)
-direction="max" or "min" (default: "max")
-thresh.vector=vector of thresholds in terms of bins (default: integer sequence from 1 to n.bins by 10)
+`optSp` returns the optimal (maximal or minimal) specificity given:  
+k=prevalence  
+pve=proportion of variance explained (e.g. heritability)  
+se=sensitivity  
+n.bins=number of bins (default: 1000)  
+direction="max" or "min" (default: "max")  
+thresh.vector=vector of thresholds in terms of bins (default: integer sequence from 1 to n.bins by 10)  
 
 PARAMETERS  
 k=prevalence. 0<=k<=1.
