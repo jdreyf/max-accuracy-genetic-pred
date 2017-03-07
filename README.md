@@ -41,16 +41,16 @@ Two examples follow. The commented-out numbers on the right-hand side are the nu
 got when using:
 R version 2.12.1 (2010-12-16)
 
-#### R code ####
-# breast cancer
+##R code
+#breast cancer
 k <- 0.04; pve <- 0.11; sp <- 0.99; se <- 0.2429554
 maxAUC(k=k, pve=pve) #0.8935785
 optSe(k=k, pve=pve, sp=sp) #0.2429554
 optSp(k=k, pve=pve, se=se) #0.99
 
-# T2D
+#T2D
 k <- 0.13; pve <- 0.26; sp <- 0.99; se <- 0.3553533
 maxAUC(k=k, pve=pve) #0.8882527
 optSe(k=k, pve=pve, sp=sp) #0.3553533
 optSp(k=k, pve=pve, se=se) #0.99
-####  end R code ####
+##end R code
