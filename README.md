@@ -1,5 +1,5 @@
 # max-accuracy-genetic-pred
-Code to accompany the paper: Dreyfuss JM, Levner D, Galagan JE, Church GM, Ramoni MF. How accurate can genetic predictions be? BMC Genomics. 2012 Jul 24;13:340. doi: 10.1186/1471-2164-13-340. PubMed PMID: 22827772; PubMed Central PMCID:
+Code to accompany the paper: Dreyfuss JM, Levner D, Galagan JE, Church GM, Ramoni MF. How accurate can genetic predictions be? *BMC Genomics*. 2012 Jul 24;13:340. doi: 10.1186/1471-2164-13-340. PubMed PMID: 22827772; PubMed Central PMCID:
 PMC3534619. http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-13-340.
 
 To use these algorithms, call the functions: maxAUC, optSe, and/or optSp.
